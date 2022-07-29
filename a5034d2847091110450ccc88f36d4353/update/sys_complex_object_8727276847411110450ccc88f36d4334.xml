@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDc3272768614111105d36e21e53cdd634</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>a5034d2847091110450ccc88f36d4353</scope_name>
+        <serialized_content>{"FlowDesigner:FDc3272768614111105d36e21e53cdd634":{"$COCollectionField":[{"Object":{}}],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDc3272768614111105d36e21e53cdd634.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"c4de829a-3603-49c5-a3a6-421e03e94194\",\"pwd2droppable\":\"true\",\"default_value\":\"\",\"child_hint\":\"\",\"child_maxsize\":\"\",\"label\":\"concerts\",\"mandatory\":\"false\",\"child_name\":\"name\",\"uiUniqueId\":\"3443d7f9-0e90-441d-9d89-11c8250e9b7c\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDc3272768614111105d36e21e53cdd634\",\"child_label\":\"name\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceType\":\"step\",\"sourceUiUniqueId\":\"24112871-ef9b-496f-897a-3b25d94c3102\",\"hint\":null,\"uiType\":\"array.object\",\"child_defaultValue\":\"\",\"child_type\":\"string\",\"order\":\"3\",\"max_length\":\"65000\",\"child_uiUniqueId\":\"802da748-012d-4ab0-8a48-4c4f8a975c58\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:03:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8727276847411110450ccc88f36d4334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDc3272768614111105d36e21e53cdd634</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>sys_complex_object_8727276847411110450ccc88f36d4334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:03:58</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
