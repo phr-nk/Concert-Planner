@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="m2m_app_config_theme">
+    <m2m_app_config_theme action="INSERT_OR_UPDATE">
+        <applicability display_value="Public">5e3885ac950911105d81fdbb9469b486</applicability>
+        <order>0</order>
+        <sys_class_name>m2m_app_config_theme</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-29 03:29:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9e3885ac9a0911106ce79d449596ea86</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>m2m_app_config_theme_9e3885ac9a0911106ce79d449596ea86</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-29 03:29:33</sys_updated_on>
+        <theme display_value="Light Theme">123885ac5e091110ee2d3a093fd93187</theme>
+        <ux_app_configuration display_value="Concert Planner Config">d23885ac9e09111085d384b810515f74</ux_app_configuration>
+    </m2m_app_config_theme>
+</record_update>
