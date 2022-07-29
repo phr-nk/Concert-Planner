@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_predicate_m2m_action_assignment">
+    <sys_ux_predicate_m2m_action_assignment action="INSERT_OR_UPDATE">
+        <declarative_action_assignment display_value="approve">d63885ac1b091110faffe847233a5486</declarative_action_assignment>
+        <predicate display_value="My tasks requested item">9a3885ac51091110d84fa5f38d803c78</predicate>
+        <sys_class_name>sys_ux_predicate_m2m_action_assignment</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-07-29 03:29:34</sys_created_on>
+        <sys_id>1a3885ac29091110c6fcf6d22d26af75</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>sys_ux_predicate_m2m_action_assignment_1a3885ac29091110c6fcf6d22d26af75</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-07-29 03:29:34</sys_updated_on>
+    </sys_ux_predicate_m2m_action_assignment>
+</record_update>
