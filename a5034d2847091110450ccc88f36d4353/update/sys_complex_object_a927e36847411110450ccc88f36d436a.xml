@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDe527e36863411110f9b09277d35a196a</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>a5034d2847091110450ccc88f36d4353</scope_name>
+        <serialized_content>{"FlowDesigner:FDe527e36863411110f9b09277d35a196a":{"venue":"String","venue.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"venue\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\",\"uiUniqueId\":\"fb3a1dee-5478-42ee-b799-3789fd81faa9\"}"},"name":"String","name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"string\",\"default_value\":null,\"label\":\"name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\",\"uiUniqueId\":\"802da748-012d-4ab0-8a48-4c4f8a975c58\"}"}},"FlowDesigner:FDe527e36863411110f9b09277d35a196a.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"concerts\",\"mandatory\":\"false\",\"child_name\":\"concert\",\"uiUniqueId\":\"24112871-ef9b-496f-897a-3b25d94c3102\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDe527e36863411110f9b09277d35a196a\",\"child_label\":\"concert\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"1\",\"max_length\":\"0\",\"child_uiUniqueId\":\"5e372d35-861d-473f-979f-f7c6d7c2ae1f\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:03:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a927e36847411110450ccc88f36d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FDe527e36863411110f9b09277d35a196a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>sys_complex_object_a927e36847411110450ccc88f36d436a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:03:53</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>

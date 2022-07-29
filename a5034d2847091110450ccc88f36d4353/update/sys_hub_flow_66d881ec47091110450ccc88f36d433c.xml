@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -11,26 +11,25 @@
         <copied_from_name>FlowTemplate_Empty</copied_from_name>
         <description>Get concerts from an API I built.</description>
         <internal_name>get_concerts</internal_name>
-        <label_cache>[]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item","label":"2 - For Each➛item","reference_display":"item","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.__action_status__","label":"1 - Get Concerts➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDb87c2320d7811110a478ff8a79417309","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d6fbe9d0-d3e1-4f29-83b8-ddcd1b856e9a"}},{"name":"f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.__dont_treat_as_error__","label":"1 - Get Concerts➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"f16b6ac7-e64d-454d-8aef-e2e307197080"}},{"name":"f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.variable","label":"1 - Get Concerts➛concerts","reference_display":"concerts","type":"array.object","base_type":"array.object","attributes":{"sourceId":"c4de829a-3603-49c5-a3a6-421e03e94194","pwd2droppable":"true","child_name":"itemn","uiUniqueId":"3443d7f9-0e90-441d-9d89-11c8250e9b7c","uiTypeLabel":"Array.Object","co_type_name":"FDb87c23201e8111106df4fb0a7600030b","child_label":"item","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"24112871-ef9b-496f-897a-3b25d94c3102","uiType":"array.object","child_type":"object","child_uiUniqueId":"1a7f62fb-7a6e-4bf1-a71c-e4005bf39cc3"}},{"name":"f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.con","label":"1 - Get Concerts➛con","reference_display":"con","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD787c23209381111015c74a69fcec610d","child_label":"con_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"con_child0","child_uiUniqueId":"33276c44-d29f-4b5b-aacc-9eeffe6a5f4b","uiUniqueId":"821ed5ff-0840-427a-ae71-a6ae5cdaeb9c"}},{"name":"61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4.record","label":"3 - Create Record➛Concert Record","reference":"x_553251_concert_0_concert","reference_display":"Concert","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4.table_name","label":"3 - Create Record➛Concert Table","reference":"x_553251_concert_0_concert","reference_display":"Concert","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4.__action_status__","label":"3 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4.__dont_treat_as_error__","label":"3 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.name","label":"2 - For Each➛item➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.image","label":"2 - For Each➛item➛image","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.link","label":"2 - For Each➛item➛link","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.venue","label":"2 - For Each➛item➛venue","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.date","label":"2 - For Each➛item➛date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.time","label":"2 - For Each➛item➛time","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master_snapshot>de7da76047811110450ccc88f36d43f7</master_snapshot>
         <name>Get Concerts</name>
         <natlang/>
         <outputs/>
-        <remote_trigger_id/>
+        <remote_trigger_id>727de76047811110450ccc88f36d4370</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-07-29 03:32:16</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>66d881ec47091110450ccc88f36d433c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Get Concerts</sys_name>
         <sys_overrides/>
         <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
@@ -38,12 +37,103 @@
         <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
         <sys_update_name>sys_hub_flow_66d881ec47091110450ccc88f36d433c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-07-29 03:32:16</sys_updated_on>
+        <sys_updated_on>2022-07-29 15:31:32</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=66d881ec47091110450ccc88f36d433c"/>
     <sys_variable_value action="delete_multiple" query="document_key=66d881ec47091110450ccc88f36d433c"/>
-    <sys_hub_trigger_instance action="delete_multiple" query="flow=66d881ec47091110450ccc88f36d433c"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2022-07-29 17:45:00</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>727de76047811110450ccc88f36d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:32</sys_updated_on>
+        <time/>
+        <timer_type>0</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:727de76047811110450ccc88f36d4370^sys_idNOT INf67de76047811110450ccc88f36d4370"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>Trigger:727de76047811110450ccc88f36d4370</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2022-07-29 17:45:00</run_start>
+        <run_time/>
+        <run_type>once</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('727de76047811110450ccc88f36d4370');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:32</sys_created_on>
+        <sys_id>f67de76047811110450ccc88f36d4370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:32</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">727de76047811110450ccc88f36d4370</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=66d881ec47091110450ccc88f36d433c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=66d881ec47091110450ccc88f36d433c^sys_idNOT IN436d676047811110450ccc88f36d4336"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Get Concerts">66d881ec47091110450ccc88f36d433c</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:17</sys_created_on>
+        <sys_id>436d676047811110450ccc88f36d4336</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:32</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=436d676047811110450ccc88f36d4336"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>436d676047811110450ccc88f36d4336</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:17</sys_created_on>
+        <sys_id>cb6d676047811110450ccc88f36d4336</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:17</sys_updated_on>
+        <value>2022-07-29 10:45:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=436d676047811110450ccc88f36d4336"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=66d881ec47091110450ccc88f36d433c"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=66d881ec47091110450ccc88f36d433c^sys_idNOT IN66d881ec47091110450ccc88f36d433e"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -61,15 +151,402 @@
     <sys_hub_flow_input action="delete_multiple" query="model=66d881ec47091110450ccc88f36d433c"/>
     <sys_hub_flow_output action="delete_multiple" query="model=66d881ec47091110450ccc88f36d433c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=66d881ec47091110450ccc88f36d433c"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=66d881ec47091110450ccc88f36d433c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=66d881ec47091110450ccc88f36d433c^sys_idNOT IN3f4da36047811110450ccc88f36d43dd,6f4da36047811110450ccc88f36d43d3"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Concerts">66d881ec47091110450ccc88f36d433c</flow>
+        <order>3</order>
+        <parent_ui_id>36f29e2f-7aa1-45ac-bb17-3d330c1da6d6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:30:47</sys_created_on>
+        <sys_id>3f4da36047811110450ccc88f36d43dd</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:32</sys_updated_on>
+        <ui_id>61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3f4da36047811110450ccc88f36d43dd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>3f4da36047811110450ccc88f36d43dd</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:30:47</sys_created_on>
+        <sys_id>f74da36047811110450ccc88f36d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:30:47</sys_updated_on>
+        <value>x_553251_concert_0_concert</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3f4da36047811110450ccc88f36d43dd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>3f4da36047811110450ccc88f36d43dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:30:47</sys_created_on>
+        <sys_id>b34da36047811110450ccc88f36d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:30:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>3f4da36047811110450ccc88f36d43dd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:30:47</sys_created_on>
+        <sys_id>774da36047811110450ccc88f36d43df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:30:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>title={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.name}}^image={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.image}}^link={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.link}}^venue={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.venue}}^date={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.date}}^time={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.time}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=3f4da36047811110450ccc88f36d43dd"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=3f4da36047811110450ccc88f36d43dd"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Concerts">3c7cefec47411110450ccc88f36d43cd</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Concerts">66d881ec47091110450ccc88f36d433c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:30:46</sys_created_on>
+        <sys_id>6f4da36047811110450ccc88f36d43d3</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:32</sys_updated_on>
+        <ui_id>f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6f4da36047811110450ccc88f36d43d3"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6f4da36047811110450ccc88f36d43d3"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6f4da36047811110450ccc88f36d43d3"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=66d881ec47091110450ccc88f36d433c"/>
-    <sys_hub_flow_logic action="delete_multiple" query="flow=66d881ec47091110450ccc88f36d433c"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=66d881ec47091110450ccc88f36d433c^sys_idNOT IN234da36047811110450ccc88f36d43d6"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">634da36047811110450ccc88f36d43d5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Concerts">66d881ec47091110450ccc88f36d433c</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:30:46</sys_created_on>
+        <sys_id>234da36047811110450ccc88f36d43d6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:32</sys_updated_on>
+        <ui_id>36f29e2f-7aa1-45ac-bb17-3d330c1da6d6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=234da36047811110450ccc88f36d43d6"/>
+    <sys_element_mapping action="delete_multiple" query="id=234da36047811110450ccc88f36d43d6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>234da36047811110450ccc88f36d43d6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:30:47</sys_created_on>
+        <sys_id>7f4da36047811110450ccc88f36d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:30:47</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=234da36047811110450ccc88f36d43d6"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=234da36047811110450ccc88f36d43d6"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=66d881ec47091110450ccc88f36d433c"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=66d881ec47091110450ccc88f36d433c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_66d881ec47091110450ccc88f36d433c"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_66d881ec47091110450ccc88f36d433c"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_66d881ec47091110450ccc88f36d433c"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_66d881ec47091110450ccc88f36d433c"/>
-    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=66d881ec47091110450ccc88f36d433c"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=66d881ec47091110450ccc88f36d433c^sys_idNOT IN367de76047811110450ccc88f36d43a4"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan/>
+        <plan_id>66d881ec47091110450ccc88f36d433c</plan_id>
+        <snapshot>de7da76047811110450ccc88f36d43f7</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>367de76047811110450ccc88f36d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:32</sys_updated_on>
+        <trigger display_value="">727de76047811110450ccc88f36d4370</trigger>
+    </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=66d881ec47091110450ccc88f36d433c"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get concerts from an API I built.</description>
+        <internal_name>get_concerts</internal_name>
+        <label_cache>[{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item","label":"2 - For Each➛item","reference_display":"item","type":"object","base_type":"object","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.__action_status__","label":"1 - Get Concerts➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiTypeLabel":"Object","co_type_name":"FDb87c2320d7811110a478ff8a79417309","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true","uiUniqueId":"d6fbe9d0-d3e1-4f29-83b8-ddcd1b856e9a"}},{"name":"f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.__dont_treat_as_error__","label":"1 - Get Concerts➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiTypeLabel":"True/False","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true","uiUniqueId":"f16b6ac7-e64d-454d-8aef-e2e307197080"}},{"name":"f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.variable","label":"1 - Get Concerts➛concerts","reference_display":"concerts","type":"array.object","base_type":"array.object","attributes":{"sourceId":"c4de829a-3603-49c5-a3a6-421e03e94194","pwd2droppable":"true","child_name":"itemn","uiUniqueId":"3443d7f9-0e90-441d-9d89-11c8250e9b7c","uiTypeLabel":"Array.Object","co_type_name":"FDb87c23201e8111106df4fb0a7600030b","child_label":"item","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"24112871-ef9b-496f-897a-3b25d94c3102","uiType":"array.object","child_type":"object","child_uiUniqueId":"1a7f62fb-7a6e-4bf1-a71c-e4005bf39cc3"}},{"name":"f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.con","label":"1 - Get Concerts➛con","reference_display":"con","type":"array.object","base_type":"array.object","attributes":{"uiTypeLabel":"Array.Object","co_type_name":"FD787c23209381111015c74a69fcec610d","child_label":"con_child0","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"array.object","child_type":"object","child_name":"con_child0","child_uiUniqueId":"33276c44-d29f-4b5b-aacc-9eeffe6a5f4b","uiUniqueId":"821ed5ff-0840-427a-ae71-a6ae5cdaeb9c"}},{"name":"61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4.record","label":"3 - Create Record➛Concert Record","reference":"x_553251_concert_0_concert","reference_display":"Concert","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4.table_name","label":"3 - Create Record➛Concert Table","reference":"x_553251_concert_0_concert","reference_display":"Concert","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4.__action_status__","label":"3 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4.__dont_treat_as_error__","label":"3 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.name","label":"2 - For Each➛item➛name","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.image","label":"2 - For Each➛item➛image","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.link","label":"2 - For Each➛item➛link","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.venue","label":"2 - For Each➛item➛venue","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.date","label":"2 - For Each➛item➛date","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":"","attributes":{}},{"name":"36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.time","label":"2 - For Each➛item➛time","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Get Concerts</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Get Concerts">66d881ec47091110450ccc88f36d433c</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>de7da76047811110450ccc88f36d43f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:30</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=de7da76047811110450ccc88f36d43f7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=de7da76047811110450ccc88f36d43f7"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=de7da76047811110450ccc88f36d43f7^sys_idNOT INe67de76047811110450ccc88f36d4311"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Get Concerts">de7da76047811110450ccc88f36d43f7</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:31</sys_created_on>
+        <sys_id>e67de76047811110450ccc88f36d4311</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:32</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e67de76047811110450ccc88f36d4311"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>e67de76047811110450ccc88f36d4311</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:31</sys_created_on>
+        <sys_id>627de76047811110450ccc88f36d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:31</sys_updated_on>
+        <value>2022-07-29 10:45:00</value>
+        <variable display_value="Run in">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_0a76e504c32222002841b63b12d3aeac^id=e67de76047811110450ccc88f36d4311"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=de7da76047811110450ccc88f36d43f7"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=de7da76047811110450ccc88f36d43f7^sys_idNOT IN927da76047811110450ccc88f36d43f9"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>de7da76047811110450ccc88f36d43f7</id>
+        <name>Get Concerts</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:30</sys_created_on>
+        <sys_id>927da76047811110450ccc88f36d43f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:30</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=927da76047811110450ccc88f36d43f9"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=de7da76047811110450ccc88f36d43f7"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=de7da76047811110450ccc88f36d43f7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=de7da76047811110450ccc88f36d43f7"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=de7da76047811110450ccc88f36d43f7^sys_idNOT IN6a7de76047811110450ccc88f36d430b,ee7de76047811110450ccc88f36d430f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Concerts">3c7cefec47411110450ccc88f36d43cd</action_type>
+        <action_type_parent display_value="Get Concerts">c0cb81ec47091110450ccc88f36d43d3</action_type_parent>
+        <comment/>
+        <compiled_snapshot>3c7cefec47411110450ccc88f36d43cd</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Concerts">de7da76047811110450ccc88f36d43f7</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:31</sys_created_on>
+        <sys_id>6a7de76047811110450ccc88f36d430b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:31</sys_updated_on>
+        <ui_id>f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6a7de76047811110450ccc88f36d430b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=6a7de76047811110450ccc88f36d430b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a7de76047811110450ccc88f36d430b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Concerts">de7da76047811110450ccc88f36d43f7</flow>
+        <order>3</order>
+        <parent_ui_id>36f29e2f-7aa1-45ac-bb17-3d330c1da6d6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:31</sys_created_on>
+        <sys_id>ee7de76047811110450ccc88f36d430f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:31</sys_updated_on>
+        <ui_id>61d396d8-d5d3-4d27-ab81-dc07f1ddf6b4</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ee7de76047811110450ccc88f36d430f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ee7de76047811110450ccc88f36d430f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:31</sys_created_on>
+        <sys_id>e27de76047811110450ccc88f36d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:31</sys_updated_on>
+        <value>x_553251_concert_0_concert</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ee7de76047811110450ccc88f36d430f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ee7de76047811110450ccc88f36d430f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:31</sys_created_on>
+        <sys_id>ae7de76047811110450ccc88f36d4310</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ee7de76047811110450ccc88f36d430f</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:31</sys_created_on>
+        <sys_id>627de76047811110450ccc88f36d4311</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>title={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.name}}^image={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.image}}^link={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.link}}^venue={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.venue}}^date={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.date}}^time={{36f29e2f-7aa1-45ac-bb17-3d330c1da6d6.item.time}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ee7de76047811110450ccc88f36d430f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ee7de76047811110450ccc88f36d430f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=de7da76047811110450ccc88f36d43f7"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=de7da76047811110450ccc88f36d43f7^sys_idNOT IN1e7da76047811110450ccc88f36d43fc"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">634da36047811110450ccc88f36d43d5</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Get Concerts">de7da76047811110450ccc88f36d43f7</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:30</sys_created_on>
+        <sys_id>1e7da76047811110450ccc88f36d43fc</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:30</sys_updated_on>
+        <ui_id>36f29e2f-7aa1-45ac-bb17-3d330c1da6d6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1e7da76047811110450ccc88f36d43fc"/>
+    <sys_element_mapping action="delete_multiple" query="id=1e7da76047811110450ccc88f36d43fc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>1e7da76047811110450ccc88f36d43fc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 15:31:30</sys_created_on>
+        <sys_id>927da76047811110450ccc88f36d43ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 15:31:30</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{f5cbb7b4-dcf7-41ed-8f8c-a260bfe9dc47.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1e7da76047811110450ccc88f36d43fc"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1e7da76047811110450ccc88f36d43fc"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=de7da76047811110450ccc88f36d43f7"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=de7da76047811110450ccc88f36d43f7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_de7da76047811110450ccc88f36d43f7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_de7da76047811110450ccc88f36d43f7"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_de7da76047811110450ccc88f36d43f7"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_de7da76047811110450ccc88f36d43f7"/>
+    <sys_hub_flow action="update">
+        <sys_id>66d881ec47091110450ccc88f36d433c</sys_id>
+        <latest_snapshot>de7da76047811110450ccc88f36d43f7</latest_snapshot>
+    </sys_hub_flow>
 </record_update>
