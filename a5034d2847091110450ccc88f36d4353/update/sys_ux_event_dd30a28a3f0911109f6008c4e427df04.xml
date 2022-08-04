@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>GLIDE_FORM_1_SAVE_RELAY_9130a28a550911105c630b0e9f40e205</event_name>
+        <interfaces/>
+        <label>Glide Form 1 SAVE Relay (Tasks Default)</label>
+        <props>[]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-03 01:44:53</sys_created_on>
+        <sys_id>dd30a28a3f0911109f6008c4e427df04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide Form 1 SAVE Relay (Tasks Default)</sys_name>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>sys_ux_event_dd30a28a3f0911109f6008c4e427df04</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-03 01:44:53</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="delete_multiple" query="documentkey=dd30a28a3f0911109f6008c4e427df04"/>
+</record_update>

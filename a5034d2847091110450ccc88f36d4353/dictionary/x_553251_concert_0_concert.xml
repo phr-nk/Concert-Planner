@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Concert" max_length="40" name="x_553251_concert_0_concert" type="collection">
+    <element label="Concert" max_length="40" name="x_553251_concert_0_concert" sizeclass="450" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Actual Date" max_length="40" name="actual_date" type="glide_date"/>
         <element label="Calendar Date" max_length="40" name="calendar_date" type="calendar_date_time"/>
-        <element label="Date" max_length="40" name="date" type="glide_date"/>
+        <element label="Date Title" max_length="40" name="date" type="string"/>
         <element label="Image" max_length="1024" name="image" type="url"/>
         <element label="Link" max_length="1024" name="link" type="url"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Time" max_length="40" name="time" type="glide_time"/>
+        <element label="Time" max_length="40" name="time" type="string"/>
         <element label="Title" max_length="100" name="title" type="string"/>
         <element label="Venue" max_length="40" name="venue" type="string"/>
     </element>

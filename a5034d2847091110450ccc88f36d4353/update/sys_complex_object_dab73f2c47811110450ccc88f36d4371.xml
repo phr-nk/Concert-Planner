@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD1ab73f2cc08111102d0680a11e211871</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>a5034d2847091110450ccc88f36d4353</scope_name>
+        <serialized_content>{"FlowDesigner:FD1ab73f2cc08111102d0680a11e211871":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FD1ab73f2cc08111102d0680a11e211871.$type_facets":{"SimpleMapFacet":"{\"sourceId\":\"\",\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"d6fbe9d0-d3e1-4f29-83b8-ddcd1b856e9a\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FD1ab73f2cc08111102d0680a11e211871\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"sourceUiUniqueId\":\"\",\"sourceType\":\"\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-29 16:16:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dab73f2c47811110450ccc88f36d4371</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD1ab73f2cc08111102d0680a11e211871</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>sys_complex_object_dab73f2c47811110450ccc88f36d4371</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 16:16:16</sys_updated_on>
+        <type>complex_object_schema</type>
+    </sys_complex_object>
+</record_update>
