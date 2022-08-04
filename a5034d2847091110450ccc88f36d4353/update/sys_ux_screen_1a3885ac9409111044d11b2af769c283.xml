@@ -18,6 +18,7 @@
   "targets" : [ {
     "broker" : null,
     "clientScript" : null,
+    "conditional" : null,
     "declarativeAction" : null,
     "event" : {
       "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
@@ -101,6 +102,7 @@
   "targets" : [ {
     "broker" : null,
     "clientScript" : null,
+    "conditional" : null,
     "declarativeAction" : null,
     "event" : {
       "apiName" : "sn_canvas_core.MODAL_SELECTED",
@@ -131,11 +133,17 @@
               "address" : [ "bare" ]
             }
           },
-          "preserveState" : {
-            "type" : "EVENT_PAYLOAD_BINDING",
-            "binding" : {
-              "address" : [ "preserveState" ]
-            }
+          "viewportElementId" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportFields" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
           }
         }
       },
@@ -160,6 +168,7 @@
   "targets" : [ {
     "broker" : null,
     "clientScript" : null,
+    "conditional" : null,
     "declarativeAction" : null,
     "event" : {
       "apiName" : "sn_canvas_core.MODAL_SELECTED",
@@ -188,7 +197,15 @@
             "type" : "JSON_LITERAL",
             "value" : null
           },
-          "preserveState" : {
+          "viewportElementId" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportRoute" : {
+            "type" : "JSON_LITERAL",
+            "value" : null
+          },
+          "viewportFields" : {
             "type" : "JSON_LITERAL",
             "value" : null
           }
@@ -215,6 +232,7 @@
   "targets" : [ {
     "broker" : null,
     "clientScript" : null,
+    "conditional" : null,
     "declarativeAction" : null,
     "event" : {
       "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",
@@ -286,12 +304,38 @@
 } ]</event_mappings>
         <macroponent display_value="Landing Page">923885ac73091110e2ea86c05c6ec482</macroponent>
         <macroponent_config>{
-  "label" : "",
-  "bare" : true,
-  "scrollable" : "none",
-  "headerLevel" : "1",
-  "interceptNotifications" : false,
-  "propagateNotifications" : false
+  "label" : {
+    "type" : "TRANSLATION_LITERAL",
+    "value" : {
+      "code" : null,
+      "message" : "",
+      "comment" : ""
+    }
+  },
+  "bare" : {
+    "type" : "JSON_LITERAL",
+    "value" : true
+  },
+  "scrollable" : {
+    "type" : "JSON_LITERAL",
+    "value" : "none"
+  },
+  "headerLevel" : {
+    "type" : "JSON_LITERAL",
+    "value" : "1"
+  },
+  "headingOnlyVisibleToScreenReaders" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "interceptNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  },
+  "propagateNotifications" : {
+    "type" : "JSON_LITERAL",
+    "value" : false
+  }
 }</macroponent_config>
         <name>Landing Page Default</name>
         <order>0</order>
@@ -306,15 +350,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1a3885ac9409111044d11b2af769c283</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Landing Page Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
         <sys_policy/>
         <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
         <sys_update_name>sys_ux_screen_1a3885ac9409111044d11b2af769c283</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2022-07-29 03:29:35</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-29 16:09:06</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=1a3885ac9409111044d11b2af769c283"/>
 </record_update>

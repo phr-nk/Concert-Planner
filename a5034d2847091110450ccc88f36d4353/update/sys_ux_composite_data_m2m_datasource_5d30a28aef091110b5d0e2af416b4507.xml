@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_m2m_datasource">
+    <sys_ux_composite_data_m2m_datasource action="INSERT_OR_UPDATE">
+        <dataset display_value="Custom Portal Catalog Item page - Related Items dataset">5930a28a1f0911102e602d4cb7a80708</dataset>
+        <datasource display_value="Custom Portal Catalog Item page - Related Items Datasource">9530a28a61091110c7d3467e57beda07</datasource>
+        <sys_class_name>sys_ux_composite_data_m2m_datasource</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-03 01:44:53</sys_created_on>
+        <sys_id>5d30a28aef091110b5d0e2af416b4507</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>sys_ux_composite_data_m2m_datasource_5d30a28aef091110b5d0e2af416b4507</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-03 01:44:53</sys_updated_on>
+    </sys_ux_composite_data_m2m_datasource>
+</record_update>

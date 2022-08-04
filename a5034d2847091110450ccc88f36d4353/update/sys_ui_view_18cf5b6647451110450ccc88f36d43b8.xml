@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>custom_portal_approval</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 19:39:26</sys_created_on>
+        <sys_id>18cf5b6647451110450ccc88f36d43b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Custom_portal_approval</sys_name>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>sys_ui_view_18cf5b6647451110450ccc88f36d43b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 19:39:26</sys_updated_on>
+        <title>Custom_portal_approval</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

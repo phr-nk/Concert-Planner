@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <includes/>
+        <macroponent display_value="Landing Page">1130a28ad709111017ab4f12469d3c0f</macroponent>
+        <name>mq_1_concerts</name>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  var title_obj = api.data.look_up_records_1.results;
+  var titles = []
+  ;
+  for(var i = 0; i < title_obj.length; i++)
+  {
+    titles.push(title_obj.title.value);
+  }
+	return titles;
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 20:41:45</sys_created_on>
+        <sys_id>a764a61247c51110450ccc88f36d4348</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>mq_1_concerts</sys_name>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>sys_ux_client_script_a764a61247c51110450ccc88f36d4348</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 20:42:33</sys_updated_on>
+        <type>transform</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</application>
+        <file_path/>
+        <instance_id>c79d3ac2db6f8d9c387021c4059619d3</instance_id>
+        <instance_name>dev128276</instance_name>
+        <name>sys_ux_client_script_a764a61247c51110450ccc88f36d4348</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;includes/&gt;&lt;macroponent display_value="Landing Page"&gt;1130a28ad709111017ab4f12469d3c0f&lt;/macroponent&gt;&lt;name&gt;mq_1_concerts&lt;/name&gt;&lt;required_translations&gt;[ ]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[/**
+  * @param {params} params
+  * @param {api} params.api
+  * @param {TransformApiHelpers} params.helpers
+  */
+function evaluateProperty({api, helpers}) {
+  var title_obj = api.data.look_up_records_1.results;
+  var titles = []
+  ;
+  for(var i = 0; i &lt; title_obj.length; i++)
+  {
+    titles.push(title_obj.title.value);
+  }
+	return titles;
+}]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-08-03 20:41:45&lt;/sys_created_on&gt;&lt;sys_id&gt;a764a61247c51110450ccc88f36d4348&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;mq_1_concerts&lt;/sys_name&gt;&lt;sys_package display_value="Concert Planner" source="x_553251_concert_0"&gt;a5034d2847091110450ccc88f36d4353&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Concert Planner"&gt;a5034d2847091110450ccc88f36d4353&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_a764a61247c51110450ccc88f36d4348&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-08-03 20:42:33&lt;/sys_updated_on&gt;&lt;type&gt;transform&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>799945619</payload_hash>
+        <record_name>mq_1_concerts</record_name>
+        <reverted_from/>
+        <source>f86b81ec47091110450ccc88f36d43cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 20:42:33</sys_created_on>
+        <sys_id>9394669247c51110450ccc88f36d4348</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18265721e820000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 20:42:33</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>5b946692a1c51110099f97eef60b2847</update_guid>
+        <update_guid_history>5b946692a1c51110099f97eef60b2847:799945619,ab64a29285c51110f3b00801f74bb84f:-1101341079</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-03 20:44:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>37b014e5ed5a4d688e9e471b1b11db29</sys_id>
+        <sys_metadata>a764a61247c51110450ccc88f36d4348</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>mq_1_concerts</sys_name>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_scope_delete display_value="">1ebf5891937440789283bff08cb32404</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_a764a61247c51110450ccc88f36d4348</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_a764a61247c51110450ccc88f36d4348">9394669247c51110450ccc88f36d4348</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-03 20:44:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

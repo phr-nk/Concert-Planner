@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="INSERT_OR_UPDATE">
+        <app_config display_value="Concert Planner Config">5130a28afe09111089570964d29abd01</app_config>
+        <description/>
+        <fields>sysId,table</fields>
+        <icon/>
+        <name>Record Page(request)</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>record_request</route_type>
+        <screen_type display_value="Record Page(request)">1130a28a00091110e0eb71de8a94020c</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-08-03 01:44:53</sys_created_on>
+        <sys_id>5930a28a16091110cb037d446cd6de0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Page(request)</sys_name>
+        <sys_package display_value="Concert Planner" source="x_553251_concert_0">a5034d2847091110450ccc88f36d4353</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Concert Planner">a5034d2847091110450ccc88f36d4353</sys_scope>
+        <sys_update_name>sys_ux_app_route_5930a28a16091110cb037d446cd6de0b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-08-03 01:44:53</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="delete_multiple" query="documentkey=5930a28a16091110cb037d446cd6de0b"/>
+</record_update>
